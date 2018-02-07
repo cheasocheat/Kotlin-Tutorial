@@ -1,4 +1,4 @@
-package mainkotlin
+package mainkotlin.classandobject
 
 /**
  *    Developer : cheasocheat
@@ -33,7 +33,7 @@ class Footballer(age: Int, name: String, birthDate : String) : Person2(age, name
 
 
     override fun printJob() {
-        println("My Job is mainkotlin.Footballer")
+        println("My Job is mainkotlin.classandobject.Footballer")
         println("I was born in $mBDate")
     }
 }

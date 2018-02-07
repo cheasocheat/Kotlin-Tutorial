@@ -1,4 +1,4 @@
-package mainkotlin
+package mainkotlin.collection
 
 /**
  *    Developer : cheasocheat

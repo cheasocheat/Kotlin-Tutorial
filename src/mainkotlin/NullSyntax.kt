@@ -1,5 +1,7 @@
 package mainkotlin
 
+import mainkotlin.extension.isEmptyString
+
 /**
  *    Developer : cheasocheat
  *    Created on 2/7/18 14:12
