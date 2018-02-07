@@ -1,11 +1,11 @@
-package main
+package mainkotlin
 
 /**
  *    Developer : cheasocheat
  *    Created on 2/6/18 15:11
  */
 
-interface Human{
+interface BaseHuman{
     fun smile()
 }
 
@@ -24,7 +24,7 @@ open class Person{
 }
 
 fun main(args: Array<String>) {
-    var obj : Human = object : Human{
+    var obj : BaseHuman = object : BaseHuman {
         override fun smile() {
             println("Hehe Developer Smile")
         }

@@ -1,11 +1,11 @@
-package util
+package mainkotlin
 
 /**
  *    Developer : cheasocheat
  *    Created on 2/6/18 09:49
  */
 
-open class Person(age: Int, name : String){
+open class Person2(age: Int, name : String){
     init {
         println("My name is $name.")
         println("My age is $age.")
@@ -15,13 +15,13 @@ open class Person(age: Int, name : String){
     }
 }
 
-class MathTeacher(age: Int, name: String) : Person(age, name){
+class MathTeacher(age: Int, name: String) : Person2(age, name){
     override fun printJob() {
         println("My Job is Math Teacher")
     }
 }
 
-class Footballer(age: Int, name: String, birthDate : String) : Person(age, name){
+class Footballer(age: Int, name: String, birthDate : String) : Person2(age, name){
     var mAge : Int
     var mName : String
     var mBDate : String
@@ -33,7 +33,7 @@ class Footballer(age: Int, name: String, birthDate : String) : Person(age, name)
 
 
     override fun printJob() {
-        println("My Job is util.Footballer")
+        println("My Job is mainkotlin.Footballer")
         println("I was born in $mBDate")
     }
 }

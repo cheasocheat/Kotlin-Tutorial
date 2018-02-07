@@ -1,4 +1,4 @@
-package main
+package mainkotlin
 
 /**
  *    Developer : cheasocheat
@@ -18,7 +18,7 @@ open class A{
 
 }
 
-class C : A(), B{
+class C : A(), B {
     override fun f() {
         super<A>.f()
         super<B>.f()

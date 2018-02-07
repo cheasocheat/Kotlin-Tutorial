@@ -1,4 +1,4 @@
-package crucial
+package mainkotlin
 
 /**
  *    Developer : cheasocheat
@@ -8,7 +8,7 @@ package crucial
 interface Human{
     fun pickUpChildrenFromSchool()
 }
-class Mama(val age : Int) : Human{
+class Mama(val age : Int) : Human {
     override fun pickUpChildrenFromSchool() {
         println("Mama is $age years old. She can't pick up her kid.")
     }
