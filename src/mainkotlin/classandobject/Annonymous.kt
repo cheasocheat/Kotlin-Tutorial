@@ -1,4 +1,4 @@
-package mainkotlin
+package mainkotlin.classandobject
 
 /**
  *    Developer : cheasocheat

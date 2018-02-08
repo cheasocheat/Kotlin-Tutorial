@@ -1,4 +1,4 @@
-package mainkotlin
+package mainkotlin.function
 
 /**
  *    Developer : cheasocheat
